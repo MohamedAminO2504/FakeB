@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264540d3d69c1484195c48279d2b34d7, type: 3}
+  m_Name: GeneralisationHative
+  m_EditorClassIdentifier: 
+  libelle: "G\xE9n\xE9rlisation h\xE2tive"
+  explication: "Ce Fake d\xE9coule d\u2019une g\xE9n\xE9ralisation h\xE2tive qui
+    d\xE9crit une g\xE9n\xE9ralit\xE9 en utilisant un\r\ncas isol\xE9 ou un exemple
+    individuel.\r\nExemple\_: \xAB\_Les chiens sont dangereux pour les enfants, un
+    chien m'a d'ailleurs\r\nmordu quand j'\xE9tais petit.\_\xBB"
+  typeFake: 3

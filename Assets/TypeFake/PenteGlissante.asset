@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264540d3d69c1484195c48279d2b34d7, type: 3}
+  m_Name: PenteGlissante
+  m_EditorClassIdentifier: 
+  libelle: Pente Glissante
+  explication: "La pente glissante est un fake dont le but est d'envisager une s\xE9rie
+    de cause et de cons\xE9quences, partant de quelque chose d'infime et aboutissant
+    \xE0 une catastrophe, sans retour en arri\xE8re possible. \r\n\xAB Si je mange
+    des haricots verts ce soir, demain je ne voudrais plus de haricots verts, donc
+    je mangerai de la viande, donc je ne mangerai plus jamais de l\xE9gumes. \xBB
+    \r\n"
+  typeFake: 2

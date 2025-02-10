@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb36fcc00383f5b47a8091a8e3a7d50b, type: 3}
+  m_Name: Fake 5
+  m_EditorClassIdentifier: 
+  typeFake: 1
+  libelle: "Le jeu de r\xF4le est une pratique qui consiste \xE0 incarner un personnage
+    fictif et \xE0 vivre des aventures dans une monde imaginaire. C'est donc le jeu
+    de r\xF4le qui d\xE9connecte nos jeunes de la r\xE9alit\xE9."
+  auteur: 
+  explication: "Le jeu de r\xF4le est avant tout un support \xE0 l'imaginaire, comme
+    peut l'\xEAtre le th\xE9\xE2tre ou bien le cin\xE9ma. Ici le lien causal sugg\xE9r\xE9
+    rel\xE8ve du fantasme et de la caricature, comme si lire un roman policier pouvait
+    vous transformer en Serial Killer."
+  active: 1
