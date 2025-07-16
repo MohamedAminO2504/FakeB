@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "675259856823",
+    "project_id": "fakebuster-71c66",
+    "storage_bucket": "fakebuster-71c66.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675259856823:android:fd202804e080459b981a32",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.Fakebuster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675259856823-1nug59irmnuvr97gomau3oj5ttcgresl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsUTrsl4RmhwKN6R3awOuMFzm7ibK5s5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675259856823-1nug59irmnuvr97gomau3oj5ttcgresl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

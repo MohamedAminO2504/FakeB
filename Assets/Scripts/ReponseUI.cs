@@ -14,7 +14,7 @@ public class ReponseUI : MonoBehaviour
 
     
     public void init(Question q, TypeFake r, TypeFakeData tfd){
-        if(q == null || r == null)
+        if(q == null)
             return ;
 
 
@@ -22,20 +22,20 @@ public class ReponseUI : MonoBehaviour
         if(q.typeFake == r){
             top.text = "BRAVO";
             if(tfd != null){
-                reponse.text = "c'etait bien une "+tfd.libelle;
+                reponse.text = "c'était bien un fake de type "+tfd.libelle;
 
             }else{
-                reponse.text = "c'etait bien une fact";  
+                reponse.text = "c'était bien une fact";  
             }
             explication.text = q.explication;
         }else{
-            top.text = "RATE";
+            top.text = "Mauvaise réponse";
             
             if(tfd != null){
-                reponse.text = "c'etait une "+tfd.libelle;
+                reponse.text = "c'était un fake de type : "+tfd.libelle;
 
             }else{
-                reponse.text = "c'etait une fact";  
+                reponse.text = "c'était une fact";  
             }
             explication.text = q.explication;
         }

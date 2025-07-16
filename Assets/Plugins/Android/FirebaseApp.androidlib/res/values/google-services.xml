@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">675259856823</string>
+  <string name="google_storage_bucket" translatable="false">fakebuster-71c66.firebasestorage.app</string>
+  <string name="project_id" translatable="false">fakebuster-71c66</string>
+  <string name="google_api_key" translatable="false">AIzaSyCsUTrsl4RmhwKN6R3awOuMFzm7ibK5s5M</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCsUTrsl4RmhwKN6R3awOuMFzm7ibK5s5M</string>
+  <string name="google_app_id" translatable="false">1:675259856823:android:fd202804e080459b981a32</string>
+  <string name="default_web_client_id" translatable="false">675259856823-1nug59irmnuvr97gomau3oj5ttcgresl.apps.googleusercontent.com</string>
+</resources>

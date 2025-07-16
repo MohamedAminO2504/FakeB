@@ -11,4 +11,12 @@ public class TypeFakeData : ScriptableObject
     public string explication;
 
     public TypeFake typeFake;
+
+    public TypeFakeApi toApi(){
+        TypeFakeApi res = new TypeFakeApi();
+        res.id = typeFake+"";
+        res.libelle = libelle;
+        res.explication = explication;
+        return res;
+    }
 }

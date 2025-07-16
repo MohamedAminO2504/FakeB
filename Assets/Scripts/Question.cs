@@ -7,6 +7,11 @@ public class Question : ScriptableObject
 {    
     public TypeFake typeFake;
 
+    public int id;
+
+    public Theme theme;
+    public Difficulte difficulte;
+
     [TextAreaAttribute]
     public string libelle;
     public string auteur;
@@ -15,6 +20,15 @@ public class Question : ScriptableObject
     public string explication;
 
     public bool active; 
+
+    public QuestionApi toQuestionApi(){
+        QuestionApi q = new QuestionApi();
+        q.typeFake = typeFake+"";
+        q.libelle = libelle;
+        q.explication = explication;
+        q.active = active;
+        return q;
+    }
 
 }
 
@@ -26,5 +40,9 @@ public class Reponse{
 }
 
 public enum TypeFake{
-    VIDE, LIEN_CAUSAL, PENTE_GLISSANTE, GENERALISATION, ARGUMENT_AUTORITER, FAUX_DILEMME, FAUSSE_ANALOGIE
+    FACT, LIEN_CAUSAL, PENTE_GLISSANTE, GENERALISATION, ARGUMENT_AUTORITER, FAUX_DILEMME, FAUSSE_ANALOGIE
+}
+
+public enum Difficulte{
+    FACILE, MOYEN, DIFFICILE
 }

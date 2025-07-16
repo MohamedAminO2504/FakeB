@@ -12,8 +12,10 @@ public class QuestionUI : MonoBehaviour
     
 
     public void init(){
-        question.text = data.libelle;
-        auteur.text = data.auteur;
+        if(data != null){
+            question.text = data.libelle;
+            auteur.text = data.auteur;
+        }
     }
 
     private void Start() {

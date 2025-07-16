@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
+    public TextMeshProUGUI version;
+
     public QuestionUI questionUI;
     public ReponseUI reponseUI;
     public FakeValidationUI fvUI;
@@ -24,6 +27,10 @@ public class UIManager : MonoBehaviour
         public GameObject scoreList;
 
     public GameObject recap;
+
+    public void Start(){
+        version.text = "version "+Application.version;
+    }
 
     public void toutMasquer(){
         question.SetActive(false);
